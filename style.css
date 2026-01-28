@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --bg-color: #f4f7f6;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 20px;
+}
+
+h1 { margin: 0; color: var(--primary-color); }
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.experience { flex: 2; }
+.skills { flex: 1; }
+
+h2 {
+    border-left: 4px solid var(--accent-color);
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+ul { padding-left: 20px; }
